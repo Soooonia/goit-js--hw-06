@@ -19,7 +19,7 @@ const makeUpGallery = images.map((elements)=>
  `<li class= "list-gallery">
  <img class= "img-gallery"
  src = "${elements.url}"
- alt = "${elements.alt} >
+ alt = "${elements.alt}" >
  </li> `).join("")
 makeImage.insertAdjacentHTML("beforebegin", makeUpGallery)
 console.log(makeUpGallery)
